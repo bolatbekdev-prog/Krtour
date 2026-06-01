@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  
+  --color-natural-bg: #FAF7F2;
+  --color-natural-charcoal: #2D2926;
+  --color-royal-red: #8E2424;
+  --color-royal-red-dark: #6D1C1C;
+  --color-sand-gold: #C48C3D;
+  --color-sand-light: #E6D5B8;
+  --color-sand-cream: #FDF9F3;
+  --color-sand-beige: #F0EBE3;
+  --color-sand-border: #E1D9CD;
+}
+
+/* Custom Webkit scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF7F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #E1D9CD;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8E2424;
+}
+
+/* Map specific styling overrides to match Natural Tones */
+.leaflet-container {
+  font-family: 'Inter', sans-serif !important;
+  background: #F0EBE3 !important;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #FFFFFF !important;
+  color: #2D2926 !important;
+  border-radius: 1rem !important;
+  border: 1px solid #E1D9CD !important;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05) !important;
+}
+
+.leaflet-popup-tip {
+  background: #FFFFFF !important;
+  border: 1px solid #E1D9CD !important;
+}
+
+.leaflet-bar {
+  border: 1px solid #E1D9CD !important;
+  box-shadow: none !important;
+}
+
+.leaflet-bar a {
+  background-color: #FFFFFF !important;
+  color: #2D2926 !important;
+  border-bottom: 1px solid #FAF7F2 !important;
+}
+
+.leaflet-bar a:hover {
+  background-color: #FAF7F2 !important;
+  color: #8E2424 !important;
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 12s linear infinite;
+}
+

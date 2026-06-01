@@ -1,0 +1,6 @@
+{
+  "name": "Karakalpakstan Tourism Zone",
+  "description": "Интерактивный путеводитель по туристическим и историческим достопримечательностям Каракалпакстана с маршрутизацией на карте.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
