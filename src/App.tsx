@@ -31,7 +31,7 @@ import {
 } from "lucide-react";
 
 // Use direct runtime asset path to avoid static TypeScript compile module resolution issues
-const yurtBg = "/src/assets/images/karakalpak_yurt_desert_1780342015803.png";
+const yurtBg = "/assets/images/karakalpak_yurt_desert_1780342015803.png";
 
 export default function App() {
   const [selectedZone, setSelectedZone] = useState<TouristZone | null>(TOURIST_ZONES[0]);

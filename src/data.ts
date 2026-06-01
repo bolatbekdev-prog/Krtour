@@ -23,7 +23,7 @@ export const TOURIST_ZONES: TouristZone[] = [
       "Кушанские терракотовые статуэтки и древнее золото",
       "Личные дневники, полевые записки и архивные фото Игоря Савицкого"
     ],
-    imageUrl: "/src/assets/images/savitsky_museum_nukus_1780345010684.png"
+    imageUrl: "/assets/images/savitsky_museum_nukus_1780345010684.png"
   },
   {
     id: "muynak-cemetery",
@@ -42,7 +42,7 @@ export const TOURIST_ZONES: TouristZone[] = [
       "Обелиск трагедии Арала на бывшем прибрежном мысе",
       "Вид на соляную равнину Аралкум с обрыва плато Устюрт"
     ],
-    imageUrl: "/src/assets/images/muynak_ship_cemetery_1780345320855.png"
+    imageUrl: "/assets/images/muynak_ship_cemetery_1780345320855.png"
   },
   {
     id: "chilpyk-dahma",
@@ -61,7 +61,7 @@ export const TOURIST_ZONES: TouristZone[] = [
       "Священный символ на гербе Каракалпакстана",
       "Древние наскальные знаки — петроглифы и тамги на склонах"
     ],
-    imageUrl: "/src/assets/images/chilpyk_dahma_tower_1780345439636.png"
+    imageUrl: "/assets/images/chilpyk_dahma_tower_1780345439636.png"
   },
   {
     id: "mizdakhkan",
@@ -80,7 +80,7 @@ export const TOURIST_ZONES: TouristZone[] = [
       "Стены крепости Гяур-Кала III века до н.э. с бойницами",
       "Многочисленные паломнические легенды и верования"
     ],
-    imageUrl: "/src/assets/images/mizdakhkan_necropolis_1780345100000_1780345139983.png"
+    imageUrl: "/assets/images/mizdakhkan_necropolis_1780345100000_1780345139983.png"
   },
   {
     id: "ayaz-kala",
@@ -99,7 +99,7 @@ export const TOURIST_ZONES: TouristZone[] = [
       "Ночлег в аутентичном каракалпакском юртовом лагере",
       "Загадочная глиняная архитектура без единого металлического гвоздя"
     ],
-    imageUrl: "/src/assets/images/ayaz_kala_fortress_1780344784562.png"
+    imageUrl: "/assets/images/ayaz_kala_fortress_1780344784562.png"
   },
   {
     id: "toprak-kala",
@@ -118,7 +118,7 @@ export const TOURIST_ZONES: TouristZone[] = [
       "Родина древнего хорезмийского календаря и письменности",
       "Уникальные оборонительные коридоры со стреловидными бойницами"
     ],
-    imageUrl: "/src/assets/images/toprak_kala_palace_1780345729967.png"
+    imageUrl: "/assets/images/toprak_kala_palace_1780345729967.png"
   },
   {
     id: "sudochye-lake",
@@ -137,7 +137,7 @@ export const TOURIST_ZONES: TouristZone[] = [
       "Высокий Чинку плато Устюрт с невероятной дикой панорамой озер",
       "Спортивный бердвотчинг и кемпинг в абсолютной степной изоляции"
     ],
-    imageUrl: "/src/assets/images/sudochye_lake_reserve_1780345901184.png"
+    imageUrl: "/assets/images/sudochye_lake_reserve_1780345901184.png"
   }
 ];
 
